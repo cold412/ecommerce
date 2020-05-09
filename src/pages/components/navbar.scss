@@ -1,0 +1,39 @@
+@import "./variables";
+
+
+.nav__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+
+
+
+.nav__container__left {
+    font-family: $font;
+    font-weight: 700;
+    font-size: 0.8rem;
+    ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    li{
+        margin-left: 4rem;
+        list-style: none;
+    }
+}
+
+
+.nav__container__right {
+    padding-right: 4rem;
+}
+
+}
+
+

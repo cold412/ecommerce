@@ -1,0 +1,56 @@
+@import "variables";
+
+.cardCont {
+  height: 25vh;
+  width: 9vw;
+  background-color: $contbcg;
+  border-radius: 0.5rem;
+
+  img {
+    height: 10vh;
+    width: 9vw;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+  .prodD {
+    width: 9vw;
+    height: 9vh;
+    padding: 1rem;
+    color: white;
+    h2 {
+      font-size: 0.8rem;
+    }
+    p {
+      font-size: 0.6rem;
+      height: 3vh;
+      overflow: hidden;
+      padding-top: 0.3rem;
+    }
+    h4 {
+      font-size: 1.2rem;
+      text-align: end;
+      padding-top: 0.3rem;
+    }
+  }
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 9vw;
+  .qw {
+    p {
+      font-size: 0.7rem;
+      color: white;
+    }
+  }
+  .btn {
+    font-size: 0.7rem;
+    color: $btncolor;
+    border-radius: 2rem;
+    border: 2px solid $btncolor;
+    padding: 0.5rem;
+  }
+}
